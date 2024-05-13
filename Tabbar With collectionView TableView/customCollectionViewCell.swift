@@ -11,4 +11,5 @@ class customCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var labelFirstName: UILabel!
     @IBOutlet weak var labelLastName: UILabel!
+    
 }

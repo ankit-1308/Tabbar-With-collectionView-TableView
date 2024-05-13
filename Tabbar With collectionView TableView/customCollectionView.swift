@@ -93,3 +93,38 @@ extension customCollectionView:UICollectionViewDataSource {
     
     
 }
+
+
+
+extension customCollectionView:UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:
+        UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat { // use increasee space between rows
+        return 30.0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:
+        UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat { // increase space between colume
+        return 30.0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:
+        UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets { // use for perticuler cell k pass margin ye sb dene k liye
+        
+        return UIEdgeInsets(top: 10.0, left: 20.0, bottom: 10.0, right: 20.0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:
+        UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        
+        let screenSize = UIScreen.main.bounds
+        let screenWidth = screenSize.width
+        let itemWidth = (screenWidth - 70 ) / 3
+        
+        return CGSize(width: itemWidth, height: 300.00)
+        
+    }
+
+}
+
