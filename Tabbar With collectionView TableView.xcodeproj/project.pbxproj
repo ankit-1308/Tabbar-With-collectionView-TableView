@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A1563C2BF23D4B0043F8D7 /* customCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1563B2BF23D4B0043F8D7 /* customCollectionView.swift */; };
+		33A1563E2BF23D880043F8D7 /* customTabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1563D2BF23D880043F8D7 /* customTabelView.swift */; };
+		33A156402BF24B4D0043F8D7 /* customCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1563F2BF24B4D0043F8D7 /* customCollectionViewCell.swift */; };
+		33A156422BF24FF90043F8D7 /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A156412BF24FF90043F8D7 /* ApiData.swift */; };
 		33ABCE452BEFB92800BB29D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ABCE442BEFB92800BB29D9 /* AppDelegate.swift */; };
 		33ABCE472BEFB92800BB29D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ABCE462BEFB92800BB29D9 /* SceneDelegate.swift */; };
 		33ABCE492BEFB92800BB29D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ABCE482BEFB92800BB29D9 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33A1563B2BF23D4B0043F8D7 /* customCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCollectionView.swift; sourceTree = "<group>"; };
+		33A1563D2BF23D880043F8D7 /* customTabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabelView.swift; sourceTree = "<group>"; };
+		33A1563F2BF24B4D0043F8D7 /* customCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
+		33A156412BF24FF90043F8D7 /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
 		33ABCE412BEFB92800BB29D9 /* Tabbar With collectionView TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabbar With collectionView TableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33ABCE442BEFB92800BB29D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33ABCE462BEFB92800BB29D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 				33ABCE462BEFB92800BB29D9 /* SceneDelegate.swift */,
 				33ABCE482BEFB92800BB29D9 /* ViewController.swift */,
 				33ABCE4A2BEFB92800BB29D9 /* Main.storyboard */,
+				33A1563F2BF24B4D0043F8D7 /* customCollectionViewCell.swift */,
+				33A1563B2BF23D4B0043F8D7 /* customCollectionView.swift */,
+				33A1563D2BF23D880043F8D7 /* customTabelView.swift */,
+				33A156412BF24FF90043F8D7 /* ApiData.swift */,
 				33ABCE4D2BEFB92B00BB29D9 /* Assets.xcassets */,
 				33ABCE4F2BEFB92B00BB29D9 /* LaunchScreen.storyboard */,
 				33ABCE522BEFB92B00BB29D9 /* Info.plist */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33ABCE492BEFB92800BB29D9 /* ViewController.swift in Sources */,
+				33A1563E2BF23D880043F8D7 /* customTabelView.swift in Sources */,
 				33ABCE452BEFB92800BB29D9 /* AppDelegate.swift in Sources */,
+				33A156402BF24B4D0043F8D7 /* customCollectionViewCell.swift in Sources */,
 				33ABCE472BEFB92800BB29D9 /* SceneDelegate.swift in Sources */,
+				33A1563C2BF23D4B0043F8D7 /* customCollectionView.swift in Sources */,
+				33A156422BF24FF90043F8D7 /* ApiData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
